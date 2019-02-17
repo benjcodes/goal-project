@@ -1,0 +1,31 @@
+#header h1{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    font-size: 8em;
+    line-height: 0;
+}
+
+.goal-form {
+    display: flex;
+}
+
+.goal-form input {
+    margin: 0 .25em;
+    border: 1px solid #eee;
+    border-left: 3px solid;
+    border-radius: 5px;
+    transition: border-color .5s ease-out;
+}
+
+.goal-form input:optional {
+    border-left-color: #999;
+}
+
+.goal-form input:required {
+    border-left-color: #2ecc71;
+}
+
+.goal-form input:invalid {
+    border-left-color: #e74c3c;
+}
+
