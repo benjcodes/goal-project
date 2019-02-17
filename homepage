@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Prompt:200" rel="stylesheet">
+    <title>Goals</title>
+</head>
+
+<body>
+
+<div id = "header">
+    <h1>Goals</h1>
+
+</div>
+
+<div id = "container">
+    <form action = "#" class = "goal-form">
+        <input type = "text" placeholder = "Your next goal" required>
+        <input type = "date" placeholder = "You will achieve this before" required>
+    </form>
+</div>
+
+<div id = "footer"></div>
+
+</body>
+
+</html>
