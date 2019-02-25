@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+#container {
+    text-align: center;
+}
+
 #header h1{
     font-family: 'Luckiest Guy', cursive;
     text-align: center;
@@ -58,6 +62,15 @@ input::placeholder {
 
 ::-moz-placeholder {
     opacity: 1;
+}
+
+#container button {
+    margin-top: 1%;
+    color: #ffffff;
+    background: #2ecc71;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 125%;
 }
 
 ol {
