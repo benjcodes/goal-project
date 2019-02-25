@@ -66,16 +66,19 @@ input::placeholder {
 
 #container button {
     margin-top: 1%;
+    padding: 10px 20px;
     color: #ffffff;
     background: #2ecc71;
+    border: 2px solid #2ecc71;
     border-radius: 4px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     font-size: 125%;
+    transition-duration: 0.4s;
 }
 
-ol {
-    padding: 0;
-    list-style-type: disc;
+#container button:hover {
+    background: #ffffff;
+    color: #2ecc71;
 }
 
 ol li {
